@@ -1,0 +1,35 @@
+{
+"questionbank":[
+{
+    
+    "question": "What is the most common skin type?",
+    "options": ["Dry", "Oily", "Combination", "Sensitive"],
+    "answer": "Combination",
+    "counter": 0
+  },
+  {
+    "question": "What is the most popular cosmetic surgery procedure?",
+    "options": ["Breast Augmentation", "Liposuction", "Rhinoplasty", "Botox"],
+    "answer": "Breast Augmentation",
+   "counter": 0
+  },
+  {
+    "question": "What is the best way to apply foundation for a natural look?",
+    "options": ["Fingers", "Sponge", "Brush", "Airbrush"],
+    "answer": "Sponge",
+    "counter": 0
+  },
+  {
+    "question": "What is the active ingredient in most acne treatments?",
+    "options": ["Benzoyl Peroxide", "Salicylic Acid", "Retinol", "Hyaluronic Acid"],
+    "answer": "Benzoyl Peroxide",
+    "counter": 0
+  },
+  {
+    "question": "What is my name?",
+    "options": ["Chala", "v", "z", "x"],
+    "answer": "Chala",
+    "counter": 0
+  }
+]
+}

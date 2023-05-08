@@ -1,15 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="UTF-8">
-    <title>Memory Game</title>
+    <title>Quiz App</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.5.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.5.0/addons/p5.sound.min.js"></script>
   </head>
   <body>
-    <div class="game-container">
-      <div class="game-board"></div>
-      <button class="reset-button">Reset Game</button>
+    <div class="container">
+      <h1>Quiz App</h1>
+      <p id="question"></p>
+      <form id="quiz-form">
+        <div id="options"></div>
+        <button type="submit">Submit</button>
+      </form>
     </div>
-    <script src="main.js"></script>
+    <script src="app.js"></script>
+    <script src="sketch.js"></script>
   </body>
 </html>
