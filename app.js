@@ -67,24 +67,6 @@ if (localStorage.getItem("quizData")) {
     }
   ];
 
-  /*fetch("beauty.json")
-.then((response) => response.json())
-.then((beautyJsonData) => {
-  for (let i=0;i<beautyJsonData.length;i++){
-    for (let j=0;j<quizData.length;j++){
-      if (quizData[j].question == beautyJsonData[i].question){
-        break;
-      }
-    }
-    if (j == quizData.length) {
-      quizData[j].question = beautyJsonData[i].question;
-      quizData[j].options = beautyJsonData[i].options;
-      quizData[j].answer = beautyJsonData[i].answer;
-      quizData[j].counter = beautyJsonData[i].counter;
-    }
-  }
-});*/
-
 
   localStorage.setItem("quizData", JSON.stringify(quizData));
 }
@@ -125,7 +107,7 @@ function showResult() {
 
   for (let i=0; i<quizData.length; i++){
     if (quizData[i].counter>0){
-     resultMessage += quizData[i].question +" was answered  "+quizData[i].counter +" times right" ;
+     resultMessage += quizData[i].question + " was answered  " +quizData[i].counter +" times right" ;
     }
   }
 
