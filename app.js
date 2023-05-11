@@ -107,7 +107,7 @@ function showResult() {
 
   for (let i=0; i<quizData.length; i++){
     if (quizData[i].counter>0){
-     resultMessage += quizData[i].question + " was answered  " +quizData[i].counter +" times right" ;
+    resultMessage += "\n"+quizData[i].question + " was answered  " +quizData[i].counter +" times right" ;
     }
   }
 
